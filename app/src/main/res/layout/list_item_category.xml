@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="isCategory"
+            type="com.example.appdoan.model.CategoryData" />
+    </data>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="100dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="5dp"
+        android:elevation="3dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/categoryImg"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:imageUrl="@{isCategory.cimg}"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.213" />
+
+        <TextView
+            android:id="@+id/categoryName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@{isCategory.cname}"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/categoryImg"
+            app:layout_constraintStart_toStartOf="@+id/categoryImg"
+            app:layout_constraintTop_toBottomOf="@+id/categoryImg" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

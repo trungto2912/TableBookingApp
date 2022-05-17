@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "146581040577",
+    "firebase_url": "https://appdoan-fd13e-default-rtdb.firebaseio.com",
+    "project_id": "appdoan-fd13e",
+    "storage_bucket": "appdoan-fd13e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146581040577:android:a6452b8014885edbf01340",
+        "android_client_info": {
+          "package_name": "com.example.appdoan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "146581040577-7c0luil90d1hj48m4lmrpa0fmbg29p59.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6stvpRnH6HupWo_uFff1nDAoT_b24O-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "146581040577-7c0luil90d1hj48m4lmrpa0fmbg29p59.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

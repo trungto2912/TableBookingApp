@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">FLPut</string>
+    <string name="app_name_app">FLPut App</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="phone">Số diện thoại</string>
+    <string name="pass">Mật khẩu</string>
+    <string name="name_user">Tên tài khoản</string>
+    <string name="email">Email</string>
+    <string name="welcome_back">Chào bạn</string>
+    <string name="login">Đăng Nhập</string>
+    <string name="register">Đăng Ký</string>
+    <string name="no_account">Không có tài khoản?</string>
+    <string name="yes_account">Đã có tài khản?</string>
+    <string name="forgot_password">Quên mật khẩu</string>
+    <string name="discount">Giảm giá : %s</string>
+    <string name="dayArrive">Ngày đến : %s</string>
+    <string name="hourArrive">Giờ đến : %s</string>
+    <string name="order">Đặt chỗ</string>
+    <string name="note">Ghi chú</string>
+    <string name="version">Phiên bản 1.0.0 (bản test)</string>
+</resources>

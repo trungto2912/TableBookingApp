@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Trang Chủ"
+        android:id="@+id/bottom_home"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_home_24"/>
+
+    <item
+        android:title="Giỏ Hàng"
+        android:id="@+id/bottom_cart"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_cart_24"/>
+
+
+</menu>
